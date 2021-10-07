@@ -1,0 +1,23 @@
+.not-Found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-Found h1{
+    font-size: 80px;
+    margin-bottom: 0%;
+}
+
+.not-Found h2{
+    font-size: 45px;
+    margin-top: 0%;
+}
+.not-Found a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 4px;
+}
