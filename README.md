@@ -12,7 +12,7 @@ PROJETO CARRINHO
 </p>
 
 <div align="center" >
-  <img src="src/Assets/readme/ProjetoCarrinho.gif" alt="sistemaChamados" height="425">
+  <img src="src/Assets/readme/ProjetoCarrinho.gif" alt="carrinho" height="425">
 </div>
 
 <hr />
