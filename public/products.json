@@ -1,0 +1,22 @@
+{"products": [
+  {
+    "id": "1",
+    "seller": "1042",
+    "name": "Monitor LED 27'' Gamer Curvo Samsung  1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
+    "productId": "001",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/br-rg50fql-lc27rg50fqlxzd-black-308778007?$684_547_PNG$",
+    "productListPrice": "2.599,00",
+    "productSellingPrice": "2.813,00",
+    "productInstallments": "10x de R$259,90"
+  },
+  {
+    "id": "2",
+    "seller": "1042",
+    "name": "Monitor Curvo QWHD Widescreen Samsung 34'' C34F791 - HDMI, DP, HAS Duas Hinge e speaker",
+    "productId": "002",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/br-ultra-wide-c34f791-lc34f791wqlxzd-rperspectivewhite-72942889?$684_547_PNG$",
+    "productListPrice": "3.599,00",
+    "productSellingPrice": "3.813,00",
+    "productInstallments": "10x de R$ 359,90"
+  }
+]}

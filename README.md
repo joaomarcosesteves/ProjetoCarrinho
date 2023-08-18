@@ -1,9 +1,9 @@
 <h1 align="center">
 <br>
-PROJETO CARRINHO 
+Wishlist
 </h1>
 
-<p align="center">Carrinho de Compras.</p>
+<p align="center">Simulador de Wishlist</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -11,17 +11,11 @@ PROJETO CARRINHO
   </a>
 </p>
 
-<div align="center" >
-  <img src="src/assets/readme/ProjetoCarrinho.gif" alt="carrinho" height="425">
-</div>
-
 <hr />
 
 ## Descrição
 
-Sistema criado para exemplificar um carrinho de compras, lendo uma JSON e armazenando no LocalStorage.
-
-#### **O Projeto foi um desafio proposto em um processo seletivo.**
+Sistema criado para exemplificar um carrinho de compras e lista de desejo, lendo uma JSON e armazenando no LocalStorage.
 
 ## Clonar Projeto
 
@@ -43,7 +37,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 - Acessar pasta do projeto pelo terminal/cmd;
 
 ```bash
-cd .../codeby
+cd .../project
 ```
 
 - Instale as dependências do projeto (arquivo package.json);

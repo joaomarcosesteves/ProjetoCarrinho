@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 5rem;
+
+  .card:hover {
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.card{
+  display: inline-flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 304px;
+  border-radius: 8px;
+  background: #FFF;
+  max-height: 568px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  margin: 75px 10px;
+}
+
+.productImage{
+  display: flex;
+  width: 240px;
+  height: auto;
+  object-fit: cover;
+  align-self: center;
+  mix-blend-mode: multiply;
+}
+
+.info{    
+  max-width: 240px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+}
+
+.productName{
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.priceDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.sellingPrice{
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.07px;
+  color: #B5B5B6;
+  text-decoration: line-through;
+}
+
+.listPrice{
+  color: var(--red-500, #DA4B4F);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.installments{
+  color: #848587;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.06px;
+  margin: 0;
+}
+
+.installmentsValue{
+  color: #1C1C1C;
+  margin: 0 4px;
+}
+
+.flex{
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  background: var(--green-400, #40B25C);
+  cursor:pointer;
+  border: none;
+
+  color: var(--grayscale-0, #FFF);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.08px;
+  text-transform: uppercase;
+}
+
+.btn, .btnActive {
+  display: flex;
+  width: 100%;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  cursor:pointer;
+  border: none;
+
+  color: var(--grayscale-0, #FFF);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.08px;
+  text-transform: uppercase;
+}
+
+.btnActive{
+  background: var(--green-400, #40B25C);
+  color: var(--grayscale-0, #FFF);
+}
+
+.btn{
+  background: var(--green-100, #A3F9B9);
+  color: var(--grayscale-0, #000);
+}
+
+.btnActive:hover{
+  background: #1C6C3E;
+}
+
+.wishList{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-self: end;
+  position: absolute;
+  background: none;
+  border: none;
+}
+
+.icon:hover{ 
+  cursor: pointer;
+  svg{
+
+    circle{
+      fill: #FEE5EC;
+    }
+
+    path{
+      fill: #FEE5EC;
+      stroke: #DA4B4F;
+    }
+
+  }
+}
+  .iconActive{
+    cursor: pointer;
+    svg{
+
+      circle{
+        fill: #DA4B4F;
+      }
+
+      path{
+        fill: white;
+        stroke: white;
+      }
+  }
+}
+.iconActive:hover{
+  svg{
+    circle{
+      fill: #C22539;
+    }
+  }
+}
+
+
+
